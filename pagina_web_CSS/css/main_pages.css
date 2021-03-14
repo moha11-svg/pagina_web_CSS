@@ -1,0 +1,21 @@
+body{
+
+  background-image: url("../img/fondo_negro.jpg");
+}
+
+h1{
+  color: powderblue;
+  text-align: center;
+}
+
+p{
+  color: White;
+  text-align: center;
+}
+
+#container{
+  display:grid;
+  border: 1px solid red;
+  grid-template-columns: 4fr 8.25fr 1,5fr 8.25fr 4fr;
+  grid-template-rows: 10vh 7,25 20vh 7,5vh 20vh 7,25vh 20vh 7,25vh;
+}
