@@ -16,6 +16,47 @@ p{
 #container{
   display:grid;
   border: 1px solid red;
-  grid-template-columns: 4fr 8.25fr 1,5fr 8.25fr 4fr;
-  grid-template-rows: 10vh 7,25 20vh 7,5vh 20vh 7,25vh 20vh 7,25vh;
+  grid-template-columns: 4fr 8fr 2fr 8fr 4fr;
+}
+
+#container .texto1{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+}
+
+#container .video{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+}
+
+#container .texto2{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+}
+
+#container .imagen{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+}
+
+#container .texto3{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+}
+
+#container .texto4{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+}
+
+#container .paginas{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
 }

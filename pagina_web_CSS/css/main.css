@@ -32,8 +32,8 @@ body{
 #container{
   display:grid;
   border: 1px solid red;
-  grid-template-columns: 4fr 8.25fr 1,5fr 8.25fr 4fr;
-  grid-template-rows: 10vh 7,25 20vh 7,5vh 20vh 7,25vh 20vh 7,25vh;
+  grid-template-columns: 4fr 8.25fr 1.5fr 8.25fr 4fr;
+  grid-template-rows: 10vh 7.25vh 20vh 7.5vh 20vh 7.25vh 20vh 7.25vh;
 }
 
 #container .cabecera{
@@ -104,7 +104,7 @@ body{
   padding: 9px;
   border-radius: 5px;
   grid-column: 2/3;
-  grid-row: 5/7;
+  grid-row: 6/7;
 }
 
 #container .imagen5{
